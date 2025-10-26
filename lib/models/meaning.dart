@@ -6,6 +6,7 @@ class Meaning {
   final String? audioPath;
   final DateTime createdAt;
   final DateTime? updatedAt;
+  
 
   Meaning({
     this.id,
