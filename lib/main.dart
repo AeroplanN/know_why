@@ -65,7 +65,7 @@ class ZnajuZachemApp extends StatelessWidget {
       ),
       
       // Карточки
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: AppColors.surface,
         elevation: AppDimensions.cardElevation,
         shape: RoundedRectangleBorder(
@@ -108,7 +108,7 @@ class ZnajuZachemApp extends StatelessWidget {
       ),
       
       // Диалоги
-      dialogTheme: DialogTheme(
+      dialogTheme: DialogThemeData(
         backgroundColor: AppColors.surface,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppDimensions.borderRadiusLarge),
